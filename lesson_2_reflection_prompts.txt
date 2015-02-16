@@ -1,36 +1,53 @@
 What happens when you initialize a repository? Why do you need to do it?
  
- You basically are adding it the staging area to then become ready to be tracked. You have to do this since it is the process of adding a file to be tracked into Git. 
+ You basically are adding it the staging area to then become ready to be tracked.
+ You have to do this since it is the process of adding a file to be tracked into Git. 
 
 How is the staging area different from the working directory and the repository?
  
- The staging area is different in that it is the intermediate area that allow you to specify extactly which changes should be committed one file at a time to then add as a single commit into the respository. While the working directory is simply the files on your hard drive and the repository is the where the files are committed and stored as hidden meta data in the main directory. 
+ The staging area is different in that it is the intermediate area that allow you to 
+ specify extactly which changes should be committed one file at a time to then add as
+ a single commit into the respository. While the working directory is simply the files 
+ on your hard drive and the repository is the where the files are committed and stored 
+ as hidden meta data in the main directory. 
 
 What value do you think it offers?
 
- The value it offers is logicial file changes/versions that can be created one at a time to best review in case of a bugs. 
+ The value it offers is logicial file changes/versions that can be created one at a
+ time to best review in case of a bugs. 
 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
- This allows you to see which files/changes have been added in preparation for versioning. Therefore, by using git diff to compare the working directory to the staging area to make sure.
+ This allows you to see which files/changes have been added in preparation for 
+ versioning. Therefore, by using git diff to compare the working directory to the 
+ staging area to make sure.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help? 
 
- As in lesson 2 of Git & Github, when you want to create a easy mode from a harder orginal mode. Creating a branch allows you to make changes to the master, but is seperate from master. It helps by making the changes easy to identify therefore logically sound. 
+ As in lesson 2 of Git & Github, when you want to create a easy mode from a harder 
+ orginal mode. Creating a branch allows you to make changes to the master, but is seperate 
+ from master. It helps by making the changes easy to identify therefore logically sound. 
 
 
 How do the diagrams help you visualize the branch structure?
 
- It gives a graphically organization of each commit and make it so that parent commits are easy to figure out. 
+ It gives a graphically organization of each commit and make it so that parent
+ commits are easy to figure out. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
- The result is that it combines the parents of both branches into into a new master branch. By merging a branch into the new master branch. It shows the connecting parent commits of both branches that merged into the new master commit. 
+ The result is that it combines the parents of both branches into into a new master 
+ branch. By merging a branch into the new master branch. It shows the connecting parent 
+ commits of both branches that merged into the new master commit. 
  
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually? 
 
- The pros is that it often times you avoid having to run into problems with the code later and the cons is that sometimes Git is not able to recongnize what part of the code to keep when more than one person is working on the same part of the code/file. So in other words the con is that you would often time have to do conflict resolution. 
+ The pros is that it often times you avoid having to run into problems with the code later 
+ and the cons is that sometimes Git is not able to recongnize what part of the code to keep 
+ when more than one person is working on the same part of the code/file. So in other words 
+ the
+ con is that you would often time have to do conflict resolution. 
